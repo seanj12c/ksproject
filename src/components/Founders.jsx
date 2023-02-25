@@ -11,7 +11,7 @@ const Founders = () => {
   return (
     <div id="founders" className="w-full h-full lg:pt-0 py-24 text-center">
       <div>
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold pt-5 pb-16">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:pt-60 pb-16">
           Meet our Founders
         </h1>
       </div>
