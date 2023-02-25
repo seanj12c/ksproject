@@ -1,8 +1,9 @@
 import React from "react";
-import android from "../assets/android.png";
-import apple from "../assets/apple.png";
+import download from "../assets/download.png";
+import join from "../assets/join.png";
 import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
+import Typed from "react-typed";
 const Home = () => {
   return (
     <div
@@ -11,7 +12,8 @@ const Home = () => {
     >
       <div className="lg:w-[50%] my-auto lg:pl-14">
         <h1 className="text-4xl font-bold pb-5">
-          Welcome to <span className="text-[#ff4d05]">/KILL</span>SPACE,
+          Better Solution with <span className="text-[#ff4d05]">{`<KIT`}</span>
+          {`SCRATCH/>`}
         </h1>
         <div className="lg:flex">
           <img
@@ -19,32 +21,49 @@ const Home = () => {
             src={dev}
             alt=""
           />
-          <p className="py-2 text-sm sm:text-base md:text-lg">
-            Join with 4600+ Developers and start getting feedbacks right now{" "}
-          </p>
+          <div>
+            <p className="pt-2 md:pl-4 pl-2 text-sm sm:text-base md:text-lg">
+              We develop using
+            </p>
+            <Typed
+              className="sm:text-4xl text-xl font-bold md:pl-4 pl-2 pb-5 text-[#ff4d05]"
+              strings={[
+                `PostgresSQL`,
+                `ReactJS`,
+                `Flutter`,
+                `NestJS`,
+                `Supabase`,
+                `Firebase`,
+                `Figma`,
+              ]}
+              typeSpeed={100}
+              backSpeed={100}
+              loop
+            />
+          </div>
         </div>
-        <p className="lg:block hidden pb-2">
+        <p className="lg:block hidden pt-4 pb-2">
           a group of talented students who are passionate about developing
           mobile apps, web apps, and UI/UX designs. We are a team of creative
           thinkers who are dedicated to delivering innovative solutions to our
           clients. Our goal is to bring your ideas to life and create unique
           digital experiences that exceed your expectations.
         </p>
-        <button className="px-6 py-2 border border-black rounded-lg mb-4">
+        <button className="mt-2 px-6 py-2 border border-black rounded-lg mb-4">
           Get Feedback
         </button>
-        <div className="flex lg:justify-start justify-center gap-2">
+        <div className="lg:flex lg:justify-start gap-2">
           <div>
             <img
-              className="rounded-xl w-28 object-cover mx-auto"
-              src={android}
+              className="rounded-xl w-36 object-cover mx-auto"
+              src={join}
               alt=""
             />
           </div>
           <div>
             <img
-              className="rounded-xl w-28 object-cover mx-auto"
-              src={apple}
+              className="rounded-xl w-36 object-cover mt-2 mx-auto"
+              src={download}
               alt=""
             />
           </div>
