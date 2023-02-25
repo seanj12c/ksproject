@@ -39,16 +39,16 @@ const Contactus = () => {
 
       <div className="lg:flex justify-center gap-4 py-10">
         <p className="text-gray-400">
-          Email:<a href="">kitscratch@info.com</a>
+          Email:<a href="/">kitscratch@info.com</a>
         </p>
         <p className="text-gray-400">
-          Phone:<a href="">+639761002831</a>
+          Phone:<a href="/">+639761002831</a>
         </p>
       </div>
       <div className="md:flex justify-center gap-7">
         <div>
           {<FaLinkedin size={30} className="mx-auto text-[#0A66C2] md:py-0" />}
-          <a href="" className="text-base py-2">
+          <a href="/" className="text-base py-2">
             @kscratch_lk
           </a>
         </div>
@@ -59,7 +59,7 @@ const Contactus = () => {
               className="mx-auto text-[#1877F2] md:py-0"
             />
           }
-          <a href="" className="text-base py-2">
+          <a href="/" className="text-base py-2">
             @kscratch_fb
           </a>
         </div>
@@ -70,7 +70,7 @@ const Contactus = () => {
               className="mx-auto text-[#C837AB] md:py-0"
             />
           }
-          <a href="" className="text-base py-2">
+          <a href="/" className="text-base py-2">
             @kscratch_ig
           </a>
         </div>
@@ -81,13 +81,13 @@ const Contactus = () => {
               className="mx-auto text-[#1D9BF0] md:py-0"
             />
           }
-          <a href="" className="text-base py-2">
+          <a href="/" className="text-base py-2">
             @kscratch_tw
           </a>
         </div>
         <div>
           {<FaYoutube size={30} className="mx-auto text-[#FF0000] md:py-0" />}
-          <a href="" className="text-base py-2">
+          <a href="/" className="text-base py-2">
             @kscratch_yt
           </a>
           <div className="pb-48"></div>
