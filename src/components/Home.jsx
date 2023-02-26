@@ -2,7 +2,9 @@ import React from "react";
 import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
-import { AiOutlineDownload, AiOutlineMessage } from "react-icons/ai";
+import { AiOutlineDownload } from "react-icons/ai";
+
+import { MdOpenInNew } from "react-icons/md";
 const Home = () => {
   return (
     <div
@@ -11,9 +13,10 @@ const Home = () => {
     >
       <div className="w-full my-auto">
         <h1 className="pb-5 text-4xl font-bold">
-          Better Solution with <span className="text-[#ff4d05]">{`<KIT`}</span>
+          Better Solution with <span className="text-primary">{`<KIT`}</span>
           {`SCRATCH/>`}
         </h1>
+
         <div className="lg:flex">
           <img
             className="object-contain mx-auto w-28 lg:mx-0"
@@ -25,18 +28,32 @@ const Home = () => {
               We develop using
             </p>
             <Typed
-              className="sm:text-4xl text-xl font-bold md:pl-4 pl-2 pb-5 text-[#ff4d05]"
+              className="pb-5 pl-2 text-xl font-bold sm:text-4xl md:pl-4 text-primary"
               strings={[
-                `PostgresSQL`,
                 `ReactJS`,
                 `Flutter`,
                 `NestJS`,
                 `Supabase`,
                 `Firebase`,
                 `Figma`,
+                `PostgresSQL`,
+                `NextJS`,
+                `VueJS`,
+                `NuxtJS`,
+                `TailwindCSS`,
+                `Material UI`,
+                `Vuetify`,
+                `Java`,
+                `Dart`,
+                `Python`,
+                `C++`,
+                `Javascript`,
+                `Photoshop`,
+                `Lucidchart`,
+                `Typescript`,
               ]}
               typeSpeed={100}
-              backSpeed={100}
+              backSpeed={40}
               loop
             />
           </div>
@@ -52,9 +69,9 @@ const Home = () => {
           <div>
             <button className="px-6 py-1 mt-2 mb-4 text-white bg-black border border-black rounded-lg">
               <div className="flex items-center justify-center gap-2">
-                <div>{<AiOutlineMessage />}</div>
+                <div>{<MdOpenInNew size={18} />}</div>
                 <div className="">
-                  <h1 className="text-sm">Join now!</h1>
+                  <h1 className="text-sm font-semibold">Join now!</h1>
                   <p className="text-xs text-gray-300">Are you student?</p>
                 </div>
               </div>
@@ -63,16 +80,16 @@ const Home = () => {
           <div>
             <button className="px-5 py-3 mt-2 mb-4 rounded-lg">
               <div className="flex items-center justify-center gap-2">
-                {<AiOutlineDownload />}
-                <h1 className="text-sm">Download Soon</h1>
+                {<AiOutlineDownload size={18} />}
+                <h1 className="text-sm font-semibold">Download Soon</h1>
               </div>
             </button>
           </div>
         </div>
       </div>
-      <div className="w-full my-auto">
+      <div className="flex justify-center my-auto lg:w-full">
         <img
-          className="object-contain mx-auto md:h-72 lg:h-96 2xl:h-[700px]"
+          className="lg:ml-auto object-contain w-72 md:w-[550px] lg:w-[600px] 2xl:w-[900px] lg:h-full "
           src={mock}
           alt=""
         />

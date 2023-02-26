@@ -26,13 +26,14 @@ const Founders = () => {
             src={dev1}
             alt=""
           />
-          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
-            Karl Jan Reginaldo
+          <h1 className="py-2 text-xl font-medium lg:text-lg md:text-2xl 2xl:text-4xl">
+            <span className="text-primary">{"<Karl"} </span>
+            {"Jan Reginaldo/>"}
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
             Full Stack Developer, Founder
           </p>
-          <p className="text-[#026C3B] 2xl:text-lg">
+          <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -44,13 +45,14 @@ const Founders = () => {
             src={dev2}
             alt=""
           />
-          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
-            Sean Jimwell Buclatin
+          <h1 className="py-2 text-xl font-medium lg:text-lg md:text-2xl 2xl:text-4xl ">
+            <span className=" text-primary">{"<Sean"} </span>
+            {"Jimwell Buclatin/>"}
           </h1>
-          <p className="text-sm md:text-base 2xl:text-lg">
+          <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
             Web Designer/Developer, Founder
           </p>
-          <p className="text-[#026C3B] 2xl:text-lg">
+          <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -62,13 +64,14 @@ const Founders = () => {
             src={dev3}
             alt=""
           />
-          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
-            Kyle Reginaldo
+          <h1 className="py-2 text-xl font-medium md:text-2xl lg:text-lg 2xl:text-4xl">
+            <span className=" text-primary">{"<Kyle"} </span>
+            {"Dennis Reginaldo/>"}
           </h1>
-          <p className="text-sm md:text-base 2xl:text-lg">
+          <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
             Mobile App Developer, Founder
           </p>
-          <p className="text-[#026C3B] 2xl:text-lg">
+          <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
             <br /> <span className="font-semibold">Trece</span>
           </p>
@@ -80,13 +83,14 @@ const Founders = () => {
             src={dev4}
             alt=""
           />
-          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
-            Kathlyn Jordan
+          <h1 className="py-2 text-xl font-medium lg:text-lg md:text-2xl 2xl:text-4xl">
+            <span className=" text-primary">{"<Kathlyn"} </span>
+            {"Jordan/>"}
           </h1>
-          <p className="text-sm md:text-base 2xl:text-lg">
+          <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
             UI/UX Designer, Founder
           </p>
-          <p className="text-[#026C3B] 2xl:text-lg">
+          <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -98,13 +102,14 @@ const Founders = () => {
             src={dev5}
             alt=""
           />
-          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
-            Jannray Mostajo
+          <h1 className="py-2 text-xl font-medium lg:text-lg md:text-2xl 2xl:text-4xl">
+            <span className=" text-primary">{"<Jannray"} </span>
+            {"Mostajo/>"}
           </h1>
-          <p className="text-sm md:text-base 2xl:text-lg">
+          <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
             Mobile App Developer, Co-Founder
           </p>
-          <p className="text-[#026C3B] pb-7 2xl:text-lg">
+          <p className="text-[#026C3B] pb-7  text-sm 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Trece</span>
           </p>

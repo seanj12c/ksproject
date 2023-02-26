@@ -22,7 +22,7 @@ const Process = () => {
         <div className="w-full lg:my-auto">
           <h1 className="pt-3 text-base font-bold md:text-xl lg:text-3xl">
             We use{" "}
-            <span className="text-[#ff4d05]">
+            <span className="text-primary">
               P<span className="text-xs">and</span>Triple D
             </span>{" "}
             <span className="font-normal">
@@ -34,7 +34,7 @@ const Process = () => {
           <p className="py-6 text-sm md:text-base">
             At{" "}
             <span className="font-bold">
-              <span className="text-[#ff4d05]">{`<KIT`}</span> {`SCRATCH/>`}
+              <span className="text-primary">{`<KIT`}</span> {`SCRATCH/>`}
             </span>{" "}
             we follow a well-defined process to ensure that our clients get the
             best possible product
