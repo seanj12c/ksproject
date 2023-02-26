@@ -1,6 +1,4 @@
 import React from "react";
-import download from "../assets/download.png";
-import join from "../assets/join.png";
 import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
