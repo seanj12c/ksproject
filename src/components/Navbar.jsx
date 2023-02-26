@@ -9,14 +9,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex lg:justify-around justify-between items-center h-24 mx-auto px-4 fixed top-0 w-full lg:w-full z-50 bg-white bg-opacity-95">
+    <div className="fixed top-0 z-50 flex items-center justify-between w-full h-24 px-4 mx-auto bg-white lg:px-20 bg-opacity-95">
       <a href="#home">
         <h1 className="w-full text-lg tracking-widest font-medium text-[#ff4d05]">
           {`<KIT`}
           <span className="text-black">{`SCRATCH/>`}</span>
         </h1>
       </a>
-      <ul className="hidden lg:flex p-4">
+      <ul className="hidden p-4 lg:flex">
         <a href="#home">
           <li className="p-4 hover:text-[#ff4d05]">Home</li>
         </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
           <span className="text-black">{`SCRATCH/>`}</span>
         </h1>
 
-        <ul className="uppercase p-4">
+        <ul className="p-4 uppercase">
           <a onClick={handleNav} href="#home">
             <li className="p-4 border-b border-gray-600 active:bg-[#ff4d05]">
               Home

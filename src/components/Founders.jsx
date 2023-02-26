@@ -10,23 +10,23 @@ const Founders = () => {
   return (
     <div
       id="founders"
-      className="w-full h-full lg:h-screen  2xl:pt-40 lg:pt-0 py-24 text-center"
+      className="grid items-center w-full h-full py-24 text-center lg:h-screen lg:px-20"
     >
       <div>
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:pt-40 pb-6 lg:pb-16">
+        <h1 className="pb-6 text-2xl font-semibold md:text-4xl lg:text-5xl 2xl:text-6xl lg:pt-16 lg:pb-16">
           Meet our Founders
         </h1>
       </div>
       {/* boxes */}
-      <div className="lg:flex justify-center gap-5">
+      <div className="justify-center gap-5 lg:flex">
         {/* box1 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
             src={dev1}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
+          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
             Karl Jan Reginaldo
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
@@ -40,11 +40,11 @@ const Founders = () => {
         {/* box2 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full border border-gray-500"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48"
             src={dev2}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
+          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
             Sean Jimwell Buclatin
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
@@ -58,11 +58,11 @@ const Founders = () => {
         {/* box3 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
             src={dev3}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
+          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
             Kyle Reginaldo
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
@@ -76,11 +76,11 @@ const Founders = () => {
         {/* box4 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
             src={dev4}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
+          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
             Kathlyn Jordan
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
@@ -94,11 +94,11 @@ const Founders = () => {
         {/* box5 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
             src={dev5}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
+          <h1 className="py-2 text-xl font-medium md:text-2xl 2xl:text-4xl">
             Jannray Mostajo
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
@@ -111,10 +111,10 @@ const Founders = () => {
         </div>
       </div>
       <hr className="w-[40%] decoration-gray-300 mx-auto" />
-      <div className="mx-auto pt-4 pb-28">
+      <div className="pt-4 mx-auto pb-28">
         <div>
           <img
-            className="mx-auto h-28 2xl:h-40 py-2 object-contain"
+            className="object-contain h-20 py-2 mx-auto 2xl:h-40"
             src={logo1}
             alt=""
           />

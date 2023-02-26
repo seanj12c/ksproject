@@ -4,17 +4,17 @@ const Process = () => {
   return (
     <div
       id="process"
-      className="w-full h-screen px-4 pt-28 lg:pt-44 lg:text-right text-center"
+      className="grid items-center w-full h-screen px-4 pt-40 text-center md:pt-32 lg:pt-28 lg:text-right lg:px-20"
     >
       <div>
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-center pb-10">
+        <h1 className="pb-10 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
           Our Process
         </h1>
       </div>
       <div className="lg:flex">
         <div className="lg:w-[50%]">
           <img
-            className="rounded-xl object-contain mb-4 lg:h-full mx-auto"
+            className="object-contain mx-auto mb-4 w-72 md:w-[550px] lg:w-[600px] 2xl:w-[1000px] rounded-xl lg:h-full"
             src={process}
             alt=""
           />

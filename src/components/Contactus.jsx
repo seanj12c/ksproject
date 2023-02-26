@@ -11,13 +11,13 @@ const Contactus = () => {
   return (
     <div
       id="contact"
-      className="w-full py-24 lg:py-32 px-4 lg:text-left text-center h-screen"
+      className="grid items-center w-full h-full px-4 py-20 text-center xl:h-screen lg:py-32 lg:text-left lg:px-20"
     >
-      <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-center pb-5">
+      <h1 className="pb-5 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
         Contact Us
       </h1>
-      <div className="lg:flex">
-        <div className="lg:w-[50%] px-6 my-auto">
+      <div className="justify-around lg:flex">
+        <div className="w-full px-6 my-auto">
           <h1 className="text-xl md:text-2xl lg:text-3xl font-bold lg:w-[70%] mr-auto">
             We’d love to hear from you.Tell us how we can be of service.
           </h1>
@@ -28,16 +28,16 @@ const Contactus = () => {
             help you bring your ideas to life.
           </p>
         </div>
-        <div className="lg:w-[50%] px-6">
+        <div className="w-full px-6">
           <img
-            className="rounded-xl object-contain lg:h-full mx-auto"
+            className="object-contain mx-auto rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[800px] lg:h-full"
             src={contact}
             alt=""
           />
         </div>
       </div>
 
-      <div className="lg:flex justify-center gap-4 py-10">
+      <div className="justify-center gap-4 py-10 lg:flex">
         <p className="text-gray-400">
           Email:<a href="/">kitscratch@info.com</a>
         </p>
@@ -45,10 +45,10 @@ const Contactus = () => {
           Phone:<a href="/">+639761002831</a>
         </p>
       </div>
-      <div className="md:flex justify-center gap-7">
+      <div className="justify-center md:flex gap-7">
         <div>
           {<FaLinkedin size={30} className="mx-auto text-[#0A66C2] md:py-0" />}
-          <a href="/" className="text-base py-2">
+          <a href="/" className="py-2 text-base">
             @kscratch_lk
           </a>
         </div>
@@ -59,7 +59,7 @@ const Contactus = () => {
               className="mx-auto text-[#1877F2] md:py-0"
             />
           }
-          <a href="/" className="text-base py-2">
+          <a href="/" className="py-2 text-base">
             @kscratch_fb
           </a>
         </div>
@@ -70,7 +70,7 @@ const Contactus = () => {
               className="mx-auto text-[#C837AB] md:py-0"
             />
           }
-          <a href="/" className="text-base py-2">
+          <a href="/" className="py-2 text-base">
             @kscratch_ig
           </a>
         </div>
@@ -81,13 +81,13 @@ const Contactus = () => {
               className="mx-auto text-[#1D9BF0] md:py-0"
             />
           }
-          <a href="/" className="text-base py-2">
+          <a href="/" className="py-2 text-base">
             @kscratch_tw
           </a>
         </div>
         <div>
           {<FaYoutube size={30} className="mx-auto text-[#FF0000] md:py-0" />}
-          <a href="/" className="text-base py-2">
+          <a href="/" className="py-2 text-base">
             @kscratch_yt
           </a>
           <div className="pb-48"></div>

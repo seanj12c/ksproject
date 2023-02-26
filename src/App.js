@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Founders from "./components/Founders";
 import Contactus from "./components/Contactus";
 import Process from "./components/Process";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Process />
       <Founders />
       <Contactus />
+      <Footer />
     </>
   );
 }
