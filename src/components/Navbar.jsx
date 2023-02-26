@@ -16,7 +16,7 @@ const Navbar = () => {
           <span className="text-black">{`SCRATCH/>`}</span>
         </h1>
       </a>
-      <ul className="hidden p-4 lg:flex">
+      <ul className="hidden py-4 lg:flex">
         <a href="#home">
           <li className="p-4 hover:text-[#ff4d05]">Home</li>
         </a>

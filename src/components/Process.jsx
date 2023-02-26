@@ -4,23 +4,23 @@ const Process = () => {
   return (
     <div
       id="process"
-      className="grid items-center w-full h-screen px-4 pt-40 text-center md:pt-32 lg:pt-28 lg:text-right lg:px-20"
+      className="grid items-center w-full h-screen pt-40 text-center md:pt-32 lg:pt-28 lg:text-right lg:px-20"
     >
       <div>
         <h1 className="pb-10 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
           Our Process
         </h1>
       </div>
-      <div className="lg:flex">
-        <div className="lg:w-[50%]">
+      <div className="justify-between lg:flex">
+        <div className="w-full">
           <img
-            className="object-contain mx-auto mb-4 w-72 md:w-[550px] lg:w-[600px] 2xl:w-[1000px] rounded-xl lg:h-full"
+            className="object-contain w-72 md:w-[550px] lg:w-[600px] 2xl:w-[1000px] rounded-xl lg:h-full"
             src={process}
             alt=""
           />
         </div>
-        <div className="lg:w-[50%] lg:my-auto">
-          <h1 className="font-bold text-base md:text-xl lg:text-3xl lg:w-[80%] ml-auto lg:pr-12">
+        <div className="w-full lg:my-auto">
+          <h1 className="text-base font-bold md:text-xl lg:text-3xl">
             We use{" "}
             <span className="text-[#ff4d05]">
               P<span className="text-xs">and</span>Triple D
@@ -31,7 +31,7 @@ const Process = () => {
             </span>
             principle for better and organize solutions
           </h1>
-          <p className="text-sm md:text-base py-6 lg:w-[80%] ml-auto lg:pr-12">
+          <p className="py-6 text-sm md:text-base">
             At{" "}
             <span className="font-bold">
               <span className="text-[#ff4d05]">{`<KIT`}</span> {`SCRATCH/>`}

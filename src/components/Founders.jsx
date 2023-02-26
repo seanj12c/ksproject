@@ -10,10 +10,10 @@ const Founders = () => {
   return (
     <div
       id="founders"
-      className="grid items-center w-full h-full py-24 text-center lg:h-screen lg:px-20"
+      className="grid items-center w-full h-full py-24 text-center xl:h-screen lg:px-20"
     >
       <div>
-        <h1 className="pb-6 text-2xl font-semibold md:text-4xl lg:text-5xl 2xl:text-6xl lg:pt-16 lg:pb-16">
+        <h1 className="pb-6 text-2xl font-semibold md:text-xl lg:text-5xl 2xl:text-6xl lg:pt-16 lg:pb-16">
           Meet our Founders
         </h1>
       </div>

@@ -1,6 +1,5 @@
 import React from "react";
-
-import mock2 from "../assets/mock2.png";
+import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
 import { AiOutlineDownload, AiOutlineMessage } from "react-icons/ai";
@@ -74,7 +73,7 @@ const Home = () => {
       <div className="w-full my-auto">
         <img
           className="object-contain mx-auto md:h-72 lg:h-96 2xl:h-[700px]"
-          src={mock2}
+          src={mock}
           alt=""
         />
       </div>

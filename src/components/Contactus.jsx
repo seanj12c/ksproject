@@ -16,21 +16,21 @@ const Contactus = () => {
       <h1 className="pb-5 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
         Contact Us
       </h1>
-      <div className="justify-around lg:flex">
-        <div className="w-full px-6 my-auto">
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold lg:w-[70%] mr-auto">
+      <div className="justify-between lg:flex">
+        <div className="w-full my-auto">
+          <h1 className="text-xl font-bold md:text-2xl lg:text-3xl">
             We’d love to hear from you.Tell us how we can be of service.
           </h1>
-          <p className="text-sm md:text-base lg:text-xl lg:w-[85%] font-light py-3 mr-auto">
+          <p className="py-3 text-sm font-light md:text-base lg:text-xl">
             If you have any questions or would like to discuss your project with
             us, please don't hesitate to contact us. You can reach us by email,
             phone, or through our website. We would love to hear from you and
             help you bring your ideas to life.
           </p>
         </div>
-        <div className="w-full px-6">
+        <div className="w-full">
           <img
-            className="object-contain mx-auto rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[800px] lg:h-full"
+            className="ml-auto object-contain rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[800px] lg:h-full"
             src={contact}
             alt=""
           />
