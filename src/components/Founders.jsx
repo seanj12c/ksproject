@@ -130,7 +130,7 @@ const Founders = () => {
           </p>
           <p className="text-[#026C3B] pb-7  text-sm 2xl:text-lg">
             Cavite State University,
-            <br /> <span className="font-semibold">Imus</span>
+            <br /> <span className="font-semibold">Silang</span>
           </p>
         </div>
       </div>
