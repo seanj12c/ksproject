@@ -1,5 +1,5 @@
 import React from "react";
-import mock from "../assets/mock.png";
+
 import mock2 from "../assets/mock2.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
