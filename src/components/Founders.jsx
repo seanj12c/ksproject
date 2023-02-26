@@ -15,7 +15,7 @@ const Founders = () => {
     >
       <div>
         <h1 className="pb-6 text-2xl font-semibold md:text-xl lg:text-5xl 2xl:text-6xl lg:pt-16 lg:pb-16">
-          Meet our Founders
+          Meet our Team
         </h1>
       </div>
       {/* boxes */}
@@ -32,7 +32,7 @@ const Founders = () => {
             {"Jan Reginaldo/>"}
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
-            Full Stack Developer, Co-Founder
+            Full Stack Developer, Founder
           </p>
           <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
