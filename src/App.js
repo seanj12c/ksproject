@@ -15,6 +15,7 @@ function App() {
       <Process />
       <Founders />
       <Contactus />
+
       <Footer />
     </>
   );

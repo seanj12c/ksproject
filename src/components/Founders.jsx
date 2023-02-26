@@ -126,7 +126,7 @@ const Founders = () => {
             {"Bay/>"}
           </h1>
           <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
-            Graphic / UI/UX Designer, Member
+            Graphic / UI/UX Designer, Co-Founder
           </p>
           <p className="text-[#026C3B] pb-7  text-sm 2xl:text-lg">
             Cavite State University,
