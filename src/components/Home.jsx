@@ -4,11 +4,12 @@ import join from "../assets/join.png";
 import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
+import { AiOutlineDownload, AiOutlineMessage } from "react-icons/ai";
 const Home = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen pt-44 md:pt-32 lg:pt-24 lg:text-left text-center lg:flex"
+      className="w-full h-full lg:h-screen pt-28 md:pt-32 lg:pt-24 lg:text-left text-center lg:flex"
     >
       <div className="lg:w-[50%] my-auto lg:pl-14">
         <h1 className="text-4xl font-bold pb-5">
@@ -49,23 +50,25 @@ const Home = () => {
           clients. Our goal is to bring your ideas to life and create unique
           digital experiences that exceed your expectations.
         </p>
-        <button className="mt-2 px-6 py-2 border border-black rounded-lg mb-4">
-          Get Feedback
-        </button>
         <div className="lg:flex lg:justify-start gap-2">
           <div>
-            <img
-              className="rounded-xl w-36 object-cover mx-auto"
-              src={join}
-              alt=""
-            />
+            <button className="mt-2 px-6 py-1 border bg-black text-white border-black rounded-lg mb-4">
+              <div className="flex items-center justify-center gap-2">
+                <div>{<AiOutlineMessage />}</div>
+                <div className="">
+                  <h1 className="text-sm">Join now!</h1>
+                  <p className="text-xs text-gray-300">Are you student?</p>
+                </div>
+              </div>
+            </button>
           </div>
           <div>
-            <img
-              className="rounded-xl w-36 object-cover mt-2 mx-auto"
-              src={download}
-              alt=""
-            />
+            <button className="mt-2 px-5 py-3 rounded-lg mb-4">
+              <div className="flex items-center justify-center gap-2">
+                {<AiOutlineDownload />}
+                <h1 className="text-sm">Download Soon</h1>
+              </div>
+            </button>
           </div>
         </div>
       </div>

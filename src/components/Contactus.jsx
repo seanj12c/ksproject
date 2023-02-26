@@ -11,9 +11,9 @@ const Contactus = () => {
   return (
     <div
       id="contact"
-      className="w-full py-32 px-4 lg:text-left text-center h-screen"
+      className="w-full py-24 lg:py-32 px-4 lg:text-left text-center h-screen"
     >
-      <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-center pb-10">
+      <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-center pb-5">
         Contact Us
       </h1>
       <div className="lg:flex">

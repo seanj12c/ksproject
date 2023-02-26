@@ -4,7 +4,7 @@ const Process = () => {
   return (
     <div
       id="process"
-      className="w-full h-full px-4 pt-52 lg:text-right text-center"
+      className="w-full h-screen px-4 pt-28 lg:pt-44 lg:text-right text-center"
     >
       <div>
         <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-center pb-10">

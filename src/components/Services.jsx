@@ -6,10 +6,10 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="lg:w-full h-full text-center w-[90%] sm:w-[50%] md:w-[70%] mx-auto md:py-36"
+      className="lg:w-full h-full lg:h-screen text-center w-[90%] sm:w-[50%] md:w-[70%] mx-auto lg:py-36"
     >
       <div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold p2 md:pt-0 lg:pt-20 pt-28">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold p2 2xl:pt-48 lg:pt-24 pt-28">
           Our Services
         </h1>
         <p className="text-sm font-light md:pb-3 lg:pb-14 lg:w-[70%] mx-auto">

@@ -8,9 +8,12 @@ import logo1 from "../assets/logo1.png";
 
 const Founders = () => {
   return (
-    <div id="founders" className="w-full h-full lg:pt-0 py-24 text-center">
+    <div
+      id="founders"
+      className="w-full h-full lg:h-screen  2xl:pt-40 lg:pt-0 py-24 text-center"
+    >
       <div>
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:pt-40 pb-16">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-semibold lg:pt-40 pb-6 lg:pb-16">
           Meet our Founders
         </h1>
       </div>
@@ -19,15 +22,17 @@ const Founders = () => {
         {/* box1 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
             src={dev1}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium py-2">
+          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
             Karl Jan Reginaldo
           </h1>
-          <p className="text-sm md:text-base">Full Stack Developer, Founder</p>
-          <p className="text-[#026C3B]">
+          <p className="text-sm md:text-base 2xl:text-lg">
+            Full Stack Developer, Founder
+          </p>
+          <p className="text-[#026C3B] 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -35,17 +40,17 @@ const Founders = () => {
         {/* box2 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 rounded-full border border-gray-500"
+            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full border border-gray-500"
             src={dev2}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium py-2">
+          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
             Sean Jimwell Buclatin
           </h1>
-          <p className="text-sm md:text-base">
+          <p className="text-sm md:text-base 2xl:text-lg">
             Web Designer/Developer, Founder
           </p>
-          <p className="text-[#026C3B]">
+          <p className="text-[#026C3B] 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -53,15 +58,17 @@ const Founders = () => {
         {/* box3 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
             src={dev3}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium py-2">
+          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
             Kyle Reginaldo
           </h1>
-          <p className="text-sm md:text-base">Mobile App Developer, Founder</p>
-          <p className="text-[#026C3B]">
+          <p className="text-sm md:text-base 2xl:text-lg">
+            Mobile App Developer, Founder
+          </p>
+          <p className="text-[#026C3B] 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Trece</span>
           </p>
@@ -69,15 +76,17 @@ const Founders = () => {
         {/* box4 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
             src={dev4}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium py-2">
+          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
             Kathlyn Jordan
           </h1>
-          <p className="text-sm md:text-base">UI/UX Designer, Founder</p>
-          <p className="text-[#026C3B]">
+          <p className="text-sm md:text-base 2xl:text-lg">
+            UI/UX Designer, Founder
+          </p>
+          <p className="text-[#026C3B] 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Rosario</span>
           </p>
@@ -85,17 +94,17 @@ const Founders = () => {
         {/* box5 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 rounded-full filter grayscale border border-gray-500"
+            className="object-cover mx-auto md:h-36 md:w-36 h-28 w-28 2xl:h-48 2xl:w-48 rounded-full filter grayscale border border-gray-500"
             src={dev5}
             alt=""
           />
-          <h1 className="text-xl md:text-2xl font-medium py-2">
+          <h1 className="text-xl md:text-2xl font-medium 2xl:text-4xl py-2">
             Jannray Mostajo
           </h1>
-          <p className="text-sm md:text-base">
+          <p className="text-sm md:text-base 2xl:text-lg">
             Mobile App Developer, Co-Founder
           </p>
-          <p className="text-[#026C3B] pb-7">
+          <p className="text-[#026C3B] pb-7 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Trece</span>
           </p>
@@ -105,7 +114,7 @@ const Founders = () => {
       <div className="mx-auto pt-4 pb-28">
         <div>
           <img
-            className="mx-auto h-28 py-2 object-contain"
+            className="mx-auto h-28 2xl:h-40 py-2 object-contain"
             src={logo1}
             alt=""
           />
