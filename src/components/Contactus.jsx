@@ -11,7 +11,7 @@ const Contactus = () => {
   return (
     <div
       id="contact"
-      className="grid items-center w-full h-full px-4 py-24 text-center lg:py-32 lg:text-left lg:px-20"
+      className="grid items-center w-full h-full px-4 py-24 text-center lg:py-32 lg:text-left lg:px-20 2xl:mt-40 "
     >
       <h1 className="pb-5 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
         Contact Us

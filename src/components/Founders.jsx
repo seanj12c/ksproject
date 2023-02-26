@@ -4,6 +4,7 @@ import dev2 from "../assets/dev2.png";
 import dev3 from "../assets/dev3.png";
 import dev4 from "../assets/dev4.png";
 import dev5 from "../assets/dev5.png";
+import dev6 from "../assets/dev6.png";
 import logo1 from "../assets/logo1.png";
 
 const Founders = () => {
@@ -18,11 +19,11 @@ const Founders = () => {
         </h1>
       </div>
       {/* boxes */}
-      <div className="justify-between lg:flex">
+      <div className="flex flex-col justify-between lg:grid-cols-3 lg:grid ">
         {/* box1 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 filter grayscale"
             src={dev1}
             alt=""
           />
@@ -31,7 +32,7 @@ const Founders = () => {
             {"Jan Reginaldo/>"}
           </h1>
           <p className="text-sm md:text-base 2xl:text-lg">
-            Full Stack Developer, Founder
+            Full Stack Developer, Co-Founder
           </p>
           <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
@@ -41,7 +42,7 @@ const Founders = () => {
         {/* box2 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 "
             src={dev2}
             alt=""
           />
@@ -50,7 +51,7 @@ const Founders = () => {
             {"Jimwell Buclatin/>"}
           </h1>
           <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
-            Web Designer/Developer, Founder
+            Web Designer/Developer, Co-Founder
           </p>
           <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
@@ -60,7 +61,7 @@ const Founders = () => {
         {/* box3 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 filter grayscale"
             src={dev3}
             alt=""
           />
@@ -69,7 +70,7 @@ const Founders = () => {
             {"Dennis Reginaldo/>"}
           </h1>
           <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
-            Mobile App Developer, Founder
+            Mobile App Developer, Co-Founder
           </p>
           <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
@@ -79,7 +80,7 @@ const Founders = () => {
         {/* box4 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 filter grayscale"
             src={dev4}
             alt=""
           />
@@ -88,7 +89,7 @@ const Founders = () => {
             {"Jordan/>"}
           </h1>
           <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
-            UI/UX Designer, Founder
+            UI/UX Designer, Co-Founder
           </p>
           <p className="text-[#026C3B] 2xl:text-lg text-sm">
             Cavite State University,
@@ -98,7 +99,7 @@ const Founders = () => {
         {/* box5 */}
         <div className="py-4">
           <img
-            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 2xl:h-48 2xl:w-48 filter grayscale"
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 filter grayscale"
             src={dev5}
             alt=""
           />
@@ -112,6 +113,24 @@ const Founders = () => {
           <p className="text-[#026C3B] pb-7  text-sm 2xl:text-lg">
             Cavite State University,
             <br /> <span className="font-semibold">Trece</span>
+          </p>
+        </div>
+        <div className="py-4">
+          <img
+            className="object-cover mx-auto border border-gray-500 rounded-full h-28 w-28 filter grayscale"
+            src={dev6}
+            alt=""
+          />
+          <h1 className="py-2 text-xl font-medium lg:text-lg md:text-2xl 2xl:text-4xl">
+            <span className=" text-primary">{"<Kimberly"} </span>
+            {"Bay/>"}
+          </h1>
+          <p className="text-sm md:text-base lg:text-sm 2xl:text-lg">
+            Graphic / UI/UX Designer, Member
+          </p>
+          <p className="text-[#026C3B] pb-7  text-sm 2xl:text-lg">
+            Cavite State University,
+            <br /> <span className="font-semibold">Imus</span>
           </p>
         </div>
       </div>
