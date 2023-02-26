@@ -18,7 +18,7 @@ const Founders = () => {
         </h1>
       </div>
       {/* boxes */}
-      <div className="justify-center gap-5 lg:flex">
+      <div className="justify-between lg:flex">
         {/* box1 */}
         <div className="py-4">
           <img

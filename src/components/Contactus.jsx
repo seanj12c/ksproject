@@ -11,13 +11,13 @@ const Contactus = () => {
   return (
     <div
       id="contact"
-      className="grid items-center w-full h-full px-4 py-20 text-center xl:h-screen lg:py-32 lg:text-left lg:px-20"
+      className="grid items-center w-full h-full px-4 py-24 text-center lg:py-32 lg:text-left lg:px-20"
     >
       <h1 className="pb-5 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
         Contact Us
       </h1>
       <div className="justify-between lg:flex">
-        <div className="w-full my-auto">
+        <div className="my-auto lg:w-full">
           <h1 className="text-xl font-bold md:text-2xl lg:text-3xl">
             We’d love to hear from you.Tell us how we can be of service.
           </h1>
@@ -28,9 +28,9 @@ const Contactus = () => {
             help you bring your ideas to life.
           </p>
         </div>
-        <div className="w-full">
+        <div className="flex justify-center lg:w-full">
           <img
-            className="ml-auto object-contain rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[800px] lg:h-full"
+            className="lg:ml-auto object-contain rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[1000px] lg:h-full"
             src={contact}
             alt=""
           />

@@ -11,16 +11,16 @@ const Process = () => {
           Our Process
         </h1>
       </div>
-      <div className="justify-between lg:flex">
-        <div className="w-full">
+      <div className="flex flex-col items-center justify-between lg:flex-row">
+        <div className="flex justify-center lg:w-full">
           <img
-            className="object-contain w-72 md:w-[550px] lg:w-[600px] 2xl:w-[1000px] rounded-xl lg:h-full"
+            className="lg:mr-auto object-contain rounded-xl w-72 md:w-[550px] lg:w-[600px] 2xl:w-[900px] lg:h-full"
             src={process}
             alt=""
           />
         </div>
         <div className="w-full lg:my-auto">
-          <h1 className="text-base font-bold md:text-xl lg:text-3xl">
+          <h1 className="pt-3 text-base font-bold md:text-xl lg:text-3xl">
             We use{" "}
             <span className="text-[#ff4d05]">
               P<span className="text-xs">and</span>Triple D
