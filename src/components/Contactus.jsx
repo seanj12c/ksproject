@@ -44,43 +44,48 @@ const Contactus = () => {
           Phone:<a href="tel:09761002831">+639761002831</a>
         </p>
       </div>
-      <div className="grid grid-cols-2 justify-between md:flex">
-        <div>
-          {<FaLinkedin size={30} className="mx-auto text-[#0A66C2] md:py-0" />}
-          <a href="/" className="py-2 text-base">
+      <div className="grid grid-cols-2 justify-center md:gap-10 md:flex">
+        <div className="py-2">
+          <a href="/" className=" text-base">
+            {
+              <FaLinkedin
+                size={30}
+                className="mx-auto text-[#0A66C2] md:py-0"
+              />
+            }
             @kscratch_lk
           </a>
         </div>
-        <div>
-          {
-            <FaFacebookSquare
-              size={30}
-              className="mx-auto text-[#1877F2] md:py-0"
-            />
-          }
-          <a href="/" className="py-2 text-base">
+        <div className="py-2">
+          <a href="/" className=" text-base">
+            {
+              <FaFacebookSquare
+                size={30}
+                className="mx-auto text-[#1877F2] md:py-0"
+              />
+            }
             @kscratch_fb
           </a>
         </div>
-        <div>
-          {
-            <FaInstagramSquare
-              size={30}
-              className="mx-auto text-[#C837AB] md:py-0"
-            />
-          }
-          <a href="/" className="py-2 text-base">
+        <div className="py-2">
+          <a href="/" className=" text-base">
+            {
+              <FaInstagramSquare
+                size={30}
+                className="mx-auto text-[#C837AB] md:py-0"
+              />
+            }
             @kscratch_ig
           </a>
         </div>
-        <div>
-          {
-            <FaTwitterSquare
-              size={30}
-              className="mx-auto text-[#1D9BF0] md:py-0"
-            />
-          }
-          <a href="/" className="py-2 text-base">
+        <div className="py-2">
+          <a href="/" className=" text-base">
+            {
+              <FaTwitterSquare
+                size={30}
+                className="mx-auto text-[#1D9BF0] md:py-0"
+              />
+            }
             @kscratch_tw
           </a>
         </div>
