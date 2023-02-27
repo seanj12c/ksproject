@@ -10,7 +10,7 @@ const Services = () => {
     >
       <div>
         <h1 className="text-2xl font-bold md:text-4xl lg:text-5xl 2xl:text-6xl p2 lg:pt-0 pt-28">
-          Our Services
+          <span className="text-primary">Our</span> Services
         </h1>
         <p className="text-sm font-light lg:w-[70%] mx-auto">
           We offer a wide range of services to help businesses and individuals

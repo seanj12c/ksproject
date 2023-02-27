@@ -1,6 +1,10 @@
-import React from "react";
-
+import React, { useState } from "react";
+import Terms from "./Terms";
+import Privacy from "./Privacy";
 const Footer = () => {
+  const [TermsPopup, setTermsPopup] = useState(false);
+  const [PrivacyPopup, setPrivacyPopup] = useState(false);
+
   return (
     <div className="items-end justify-between w-full h-full p-4 text-center md:flex">
       <div>
@@ -9,12 +13,20 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex justify-center gap-2">
-        <a className="text-xs lg:text-sm" href="/">
+        <button
+          className="text-xs lg:text-sm"
+          onClick={() => setTermsPopup(true)}
+        >
           Terms & Agreements
-        </a>
-        <a className="text-xs lg:text-sm" href="/">
+        </button>
+        <Terms trigger={TermsPopup} setTrigger={setTermsPopup} />
+        <button
+          className="text-xs lg:text-sm"
+          onClick={() => setPrivacyPopup(true)}
+        >
           Privacy Policy
-        </a>
+        </button>
+        <Privacy trigger={PrivacyPopup} setTrigger={setPrivacyPopup} />
       </div>
     </div>
   );

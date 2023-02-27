@@ -8,7 +8,7 @@ const Process = () => {
     >
       <div>
         <h1 className="pb-10 text-2xl font-bold text-center md:text-4xl lg:text-5xl 2xl:text-6xl">
-          Our Process
+          <span className="text-primary">Our</span> Process
         </h1>
       </div>
       <div className="flex flex-col items-center justify-between lg:flex-row">

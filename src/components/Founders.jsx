@@ -15,7 +15,7 @@ const Founders = () => {
     >
       <div>
         <h1 className="pb-6 text-2xl font-semibold md:text-xl lg:text-5xl 2xl:text-6xl lg:pt-16 lg:pb-16">
-          Meet our Team
+          <span className="text-primary">Meet</span> our Team
         </h1>
       </div>
       {/* boxes */}

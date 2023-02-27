@@ -3,8 +3,8 @@ import mock from "../assets/mock.png";
 import dev from "../assets/dev.png";
 import Typed from "react-typed";
 import { AiOutlineDownload } from "react-icons/ai";
-
 import { MdOpenInNew } from "react-icons/md";
+
 const Home = () => {
   return (
     <div
